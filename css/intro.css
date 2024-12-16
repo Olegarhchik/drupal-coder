@@ -1,13 +1,21 @@
 .first-point {
     color: #fff;
-    text-align: center;
 
     box-sizing: border-box;
-    height: 800px;
     padding-top: 40px;
+    padding-bottom: 80px;
     
-    backdrop-filter: brightness(0.33) ;
-    background: url(../img/intro/druplicon.svg) no-repeat -72px 0 / 110%;
+    backdrop-filter: brightness(0.2) ;
+    background: url(../img/intro/druplicon.svg) no-repeat -72px -72px / 110%;
+}
+
+.first-point__container {
+    padding: 0 40px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 80px;
 }
 
 .intro__background {
@@ -15,16 +23,9 @@
     right: 0;
     top: 0;
     z-index: -10;
-
-    height: 800px;
-}
-
-.intro__container {
-    padding: 0 40px;
 }
 
 .intro__title {
-    font-weight: 600;
     font-size: 20px;
 }
 
@@ -32,7 +33,6 @@
     margin-top: 30px;
     margin-bottom: 60px;
 
-    font-weight: 300;
     font-size: 12px;
     line-height: 1.5;
 }
@@ -48,11 +48,54 @@
     color: #fff;
     text-transform: uppercase;
     font-size: 12px;
-    font-weight: 300;
 }
 
 .intro__button:hover {
-    color: #000;
     transition: .2s all linear;
-    background: #f14d34;
+    background: var(--red);
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 40px;
+}
+
+.info__item {
+    position: relative;
+    padding-left: 20px;
+}
+
+.info__item::before {
+    content: "";
+    display: block;
+    width: 4px;
+    background: var(--red);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.info__title {
+    font-size: 18px;
+}
+
+.info__description {
+    font-size: 10px;
+    margin-top: 8px;
+}
+
+.info__item_accent .info__title {
+    display: inline;
+}
+
+.info__item_accent img {
+    position: absolute;
+    top: -5px;
+    width: 40px;
+}
+
+.info__item_accent .info__title {
+    font-size: 32px;
 }
