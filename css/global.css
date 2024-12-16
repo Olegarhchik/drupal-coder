@@ -4,6 +4,7 @@
 
 :root {
     --red: #f14d34;
+    --main-black: #050C33;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
 
 h1, h2 {
     margin: 0;
-    font-weight: 600;
 }
 
 p {

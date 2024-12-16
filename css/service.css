@@ -1,0 +1,43 @@
+.service {
+    background: #fff;
+    padding-top: 72px;
+}
+
+.service__container {
+    padding: 0 16px;
+}
+
+.service__title {
+    font-size: 22px;
+    color: var(--main-black);
+
+    margin-bottom: 24px;
+}
+
+.service__description {
+    font-size: 15px;
+    color: var(--main-black);
+    opacity: 0.7;
+
+    margin-bottom: 60px;
+}
+
+.service__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.card-image__wrapper {
+    text-align: center;
+}
+
+.service__card-image {
+    width: 80px;
+}
+
+.service__card-description {
+    font-size: 14px;
+    color: var(--main-black);
+    opacity: 0.7;
+}
