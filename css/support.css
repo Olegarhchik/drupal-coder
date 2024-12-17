@@ -1,6 +1,21 @@
 .support {
     padding-top: 96px;
     text-align: center;
+
+    position: relative;
+}
+
+.support::after {
+    content: "";
+    background: linear-gradient(to right, #040613, #181a26);
+    
+    display: block;
+    height: 200px;
+    width: 100vw;
+    
+    position: absolute;
+    bottom: 0;
+    z-index: -10;
 }
 
 .support__container {
@@ -16,6 +31,9 @@
 
 .support__cards {
     text-align: left;
+
+    background: #fff;
+    border-radius: 10px;
 
     display: grid;
     grid-template-columns: 1fr;
