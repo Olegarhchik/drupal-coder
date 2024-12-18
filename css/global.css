@@ -20,3 +20,11 @@ p {
     margin: 0;
     font-weight: 300;
 }
+
+ul {
+    margin: 0;
+}
+
+button {
+    background-color: #fff;
+}

@@ -1,0 +1,137 @@
+.rates {
+    position: relative;
+    background: url(../img/rates/D-background.svg) no-repeat right / cover;
+}
+
+.rates__container {
+    padding: 110px 15px 0;
+}
+
+.rates__title {
+    text-align: center;
+    font-size: 24px;
+
+    margin-bottom: 20px;
+}
+
+.rates__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px 0;
+}
+
+.rates__card-item {
+    padding: 35px 15px 35px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.rates__card-title {
+    font-size: 22px;
+    color: var(--red);
+}
+
+.rates__card-header {
+    padding-bottom: 20px;
+}
+
+.rates__card-header::after {
+    content: "";
+
+    display: block;
+    width: 100%;
+    height: 1px;
+
+    background: #000;
+    opacity: 0.2;
+
+    position: relative;
+    bottom: -20px;
+}
+
+.rates__card-price {
+    font-size: 72px;
+    font-weight: 700;
+    color: var(--main-black);
+}
+
+.rates__card-price_rubles {
+    font-size: 28px;
+    font-weight: 400;
+
+    position: relative;
+    right: 10px;
+}
+
+.rates__card-time {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--main-black);
+}
+
+.rates__card-description {
+    padding: 40px 0 40px 30px;
+}
+
+.rates__card-card-description-item {
+    font-size: 14px;
+    color: var(--main-black);
+
+    margin-bottom: 20px;
+
+    opacity: 0.7;
+    list-style-image: url(../img/rates/checked.svg);
+}
+
+.rates__card-card-description-item:last-child {
+    margin-bottom: 0;
+}
+
+.rates__card-button {
+    padding: 20px 0;
+    width: 100%;
+
+    font-size: 14px;
+    color: var(--red);
+    text-align: center;
+    text-transform: uppercase;
+
+    border: 1px solid var(--red);
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.rates__card-button:hover {
+    background: var(--red);
+    color: #fff;
+
+    transition: 0.2s linear all;
+}
+
+.rates__individual {
+    padding: 50px 0;
+    margin: 0 auto;
+
+    text-align: center;
+    max-width: 470px;
+
+    color: var(--main-black);
+    font-weight: 400;
+}
+
+.rates__individual-description {
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    line-height: 22px;
+
+    opacity: 0.5;
+}
+
+.rates__individual-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
