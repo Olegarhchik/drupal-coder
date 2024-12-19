@@ -1,6 +1,6 @@
 .rates {
     position: relative;
-    background: url(../img/rates/D-background.svg) no-repeat right / cover;
+    background: url(../img/rates/D-background.svg) no-repeat right -10px top 0 / cover;
 }
 
 .rates__container {

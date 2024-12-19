@@ -1,0 +1,39 @@
+.competency {
+    color: var(--main-black);
+
+    padding: 50px 0;
+}
+
+.competency__container {
+    padding: 0 18px;
+}
+
+.competency__title {
+    font-size: 24px;
+
+    padding-bottom: 60px;
+}
+
+.competency__cards {
+    display: grid;
+    grid-template-columns: 180px;
+    justify-content: center;
+    gap: 30px 0;
+}
+
+.competency__card-header {
+    text-align: center;
+}
+
+.competency__card-image {
+    height: 80px;
+}
+
+.competency__card-title {
+    font-size: 28px;
+}
+
+.competency__card-description {
+    font-size: 14px;
+    opacity: 0.7;
+}
