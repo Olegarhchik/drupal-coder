@@ -1,0 +1,52 @@
+.team {
+    padding: 45px 0;
+
+    color: var(--main-black);
+}
+
+.team__container {
+    padding: 0 30px;
+}
+
+.team__title {
+    text-align: center;
+    font-size: 24px;
+
+    padding-bottom: 20px;
+}
+
+.team__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 30px;
+
+    margin-bottom: 20px;
+}
+
+.team__card-image {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.team__card-title {
+    font-size: 18px;
+
+    margin-bottom: 16px;
+}
+
+.team__card-description {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.team__button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+
+    text-transform: uppercase;
+    font-size: 12px;
+
+    border: 1px solid rgba(5, 12, 51, 0.2);
+    border-radius: 5px;
+}
