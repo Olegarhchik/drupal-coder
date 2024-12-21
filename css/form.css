@@ -1,0 +1,112 @@
+.form {
+    padding-bottom: 80px;
+
+    color: #fff;
+    background: linear-gradient(to right, #040613, #181a26);
+}
+
+.form::after {
+    content: "";
+
+    display: block;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+
+    position: relative;
+    top: 80px;
+}
+
+.form__container {
+    background: url(../img/form/D-flying.png) no-repeat top 0 left 50% / 40%;
+
+    padding: 40px 15px 0 15px;
+}
+
+.form__title {
+    font-size: 22px;
+    text-align: center;
+    text-shadow: #000 0 0 20px;
+
+    margin-bottom: 20px;
+}
+
+.form__description {
+    font-size: 14px;
+    text-align: justify;
+
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.form__phone {
+    margin-bottom: 20px;
+}
+
+.form__email {
+    margin-bottom: 30px;
+}
+
+.form__phone-icon, .form__email-icon {
+    height: 12px;
+
+    margin-right: 20px;
+    opacity: 0.5
+}
+
+.form__phone-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form__email-text {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.form__name-field, .form__phone-field, .form__email-field, .form__textarea {
+    font-size: 14px;
+    color: #fff;
+
+    padding: 20px 24px;
+    margin-bottom: 8px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+    width: 100%;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.form__textarea {
+    resize: vertical;
+    min-height: 154px;
+}
+
+.form__checkbox {
+    font-size: 12px;
+}
+
+.form__agree {
+    font-size: 12px;
+}
+
+#captcha-container {
+    margin-top: 12px;
+}
+
+.form__button {
+    width: 100%;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+
+    padding: 22px 0;
+    margin-top: 12px;
+    border: 0;
+    border-radius: 5px;
+
+    background: var(--red);
+}

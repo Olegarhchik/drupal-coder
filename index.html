@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Drupal Coder</title>
+    <script src="https://smartcaptcha.yandexcloud.net/captcha.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -653,6 +654,48 @@
                     <h3 class="faq__question-text">Можно ли подуматься со специалистом голосом или в мессенджере?</h3>
                 </li>
             </ol>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="form__container">
+            <div class="form__info">
+                <h2 class="form__title">Оставить заявку на <br> поддержку сайта</h2>
+
+                <p class="form__description">
+                    Срочно нужна поддержка сайта? Ваша команда не успевает справиться самостоятельно или предыдущий подрядчик не справился с работой? Тогда вам точно к нам! Просто оставьте заявку и наш менеджер с вами свяжется!
+                </p>
+
+                <div class="form__phone">
+                    <img src="img/form/phone.svg" class="form__phone-icon" alt="">
+
+                    <span class="form__phone-text">8 800 222-26-73</span>
+                </div>
+
+                <div class="form__email">
+                    <img src="img/form/email.svg" alt="" class="form__email-icon">
+
+                    <span class="form__email-text">info@drupal-coder.ru</span>
+                </div>
+            </div>
+
+            <form action="index.html" class="form__fields">
+                <input type="text" class="form__name-field" placeholder="Ваше имя" required>
+
+                <input type="tel" class="form__phone-field" placeholder="Телефон" required>
+
+                <input type="email" class="form__email-field" placeholder="E-mail" required>
+
+                <textarea class="form__textarea" name="application" id="application" placeholder="Ваш комментарий" required></textarea>
+
+                <input type="checkbox" class="form__checkbox" id="conditions" required>
+
+                <label class="form__agree" for="conditions">Отправляя заявку, я даю согласие на обработку своих персональных данных</label>
+
+                <div style="height: 80px" id="captcha-container" class="smart-captcha" data-sitekey="ysc1_yWqL89HvzF2fmJRP254mB8Rm5bkYZDuezVb54DG565b72c2f"></div>
+
+                <input type="button" class="form__button" value="Свяжитесь с нами">
+            </form>
         </div>
     </section>
 </body>
