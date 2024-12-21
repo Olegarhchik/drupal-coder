@@ -21,8 +21,12 @@ p {
     font-weight: 300;
 }
 
-ul {
+ul, ol {
     margin: 0;
+}
+
+ol {
+    padding-left: 0;
 }
 
 button {
