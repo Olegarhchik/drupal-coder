@@ -1,0 +1,15 @@
+.footer {
+    background: linear-gradient(to right, #040613, #181a26);
+}
+
+.footer__container {
+    padding: 32px 15px;
+
+    background: url(../img/footer/D.png) no-repeat bottom 0 right 0 / 33%;
+}
+
+.footer__description {
+    color: #fff;
+    font-size: 14px;
+    text-shadow: #000 0 0 20px;
+}
