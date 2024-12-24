@@ -36,3 +36,9 @@ button {
 input, textarea {
     outline: none;
 }
+
+@media (min-width: 1025px) {
+    body {
+        padding-bottom: 0;
+    }
+}

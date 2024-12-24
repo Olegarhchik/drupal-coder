@@ -57,3 +57,23 @@
     height: 60px;
     object-fit: contain;
 }
+
+@media (min-width: 1025px) {
+    .clients__container {
+        padding: 0 350px;
+        text-align: center;
+    }
+
+    .clients__title {
+        font-size: 42px;
+    }
+
+    .clients__carouselle-image {
+        width: 180px;
+        height: 90px;
+    }
+
+    .clients__carouselle-item {
+        padding: 30px 60px;
+    }
+}

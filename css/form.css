@@ -78,6 +78,10 @@
     box-sizing: border-box;
 }
 
+.form__name-field::placeholder, .form__phone-field::placeholder, .form__email-field::placeholder, .form__textarea::placeholder {
+    color: #fff;
+}
+
 .form__textarea {
     resize: vertical;
     min-height: 154px;
@@ -109,4 +113,33 @@
     border-radius: 5px;
 
     background: var(--red);
+}
+
+@media (min-width: 1025px) {
+    .form__container {
+        padding: 70px 130px 0px 130px;
+        display: flex;
+        gap: 220px;
+
+        background: url(../img/form/D-flying.png) no-repeat top 0 left 50% / 20%;
+    }
+
+    .form__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .form__title {
+        font-size: 42px;
+        text-align: left;
+    }
+
+    .form__phone-text {
+        font-size: 32px;
+    }
+
+    .form__phone-icon, .form__email-icon {
+        height: 18px;
+    }
 }

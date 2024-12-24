@@ -119,3 +119,26 @@
 .reviews__card-all {
     opacity: 0.2;
 }
+
+@media (min-width: 1025px) {
+    .reviews__container {
+        padding: 0 230px;
+    }
+
+    .reviews__title {
+        font-size: 42px;
+        margin-bottom: 120px;
+    }
+
+    .reviews__card-item_inactive-1 {
+        top: -30px;
+    }
+
+    .reviews__card-item_inactive-2 {
+        top: -60px;
+    }
+
+    .reviews {
+        background: url(../img/reviews/right-quote-sign.svg) no-repeat 0 0 / 20%;
+    }
+}

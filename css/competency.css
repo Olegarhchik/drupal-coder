@@ -37,3 +37,18 @@
     font-size: 14px;
     opacity: 0.7;
 }
+
+@media (min-width: 1025px) {
+    .competency__container {
+        padding: 0 130px;
+    }
+
+    .competency__title {
+        font-size: 42px;
+    }
+
+    .competency__cards {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+    }
+}

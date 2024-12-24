@@ -135,3 +135,24 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+@media (min-width: 1025px) {
+    .rates__container {
+        padding: 110px 130px 0;
+    }
+
+    .rates__title {
+        font-size: 42px;
+    }
+
+    .rates__cards {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+    }
+
+    .rates__card-item:hover {
+        transform: scale(1.1);
+
+        transition: all 0.2s linear;
+    }
+}

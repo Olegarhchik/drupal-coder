@@ -122,3 +122,36 @@
     border: 1px solid rgba(5, 12, 51, 0.2);
     border-radius: 5px;
 }
+
+@media (min-width: 1025px) {
+    .cases__container {
+        padding: 0 130px;
+    }
+
+    .cases__title {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .cases__cards {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 380px);
+        gap: 20px 20px;
+    }
+
+    .cases__card-item_full {
+        grid-column: auto / span 1;
+    }
+
+    .cases__card-item_short {
+        grid-column: auto / span 2;
+    }
+
+    .cases__card-item_short {
+        height: auto;
+    }
+
+    .cases__button {
+        padding: 24px 75px;
+    }
+}

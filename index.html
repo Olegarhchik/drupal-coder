@@ -8,20 +8,39 @@
     <script src="https://smartcaptcha.yandexcloud.net/captcha.js" defer></script>
 </head>
 <body>
-    <header class="header">
-        <div class="header-container">
-            <div class="header__logo">
-                <img src="img/header/logo.svg" alt="Логотип сайта">
-            </div>
-
-            <div class="burger"></div>
-        </div>
-    </header>
-
     <video class="intro__background" autoplay loop muted>
         <source src="img/intro/video.mp4" type="video/mp4">
     </video>
 
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="img/header/logo.svg" alt="Логотип сайта">
+            </div>
+    
+            <nav class="header__navigation">
+                <ul class="header__links">
+                    <li class="header__link">Поддержка сайтов</li>
+                    <li class="header__link">Тарифы</li>
+                    <li class="header__link">Наши работы</li>
+                    <li class="header__link">Отзывы</li>
+                    <li class="header__link">Контакты</li>
+                </ul>
+
+                <div class="header__contacts">
+                    <span class="header__phone">8 880 222-26-73</span>
+    
+                    <div class="header__lang">
+                        <span class="header__ru">RU</span>
+                        <img src="img/header/arrow-lang.svg" alt="" class="header__switch-lang">
+                    </div>
+                </div>
+            </nav>
+    
+            <div class="header__burger"></div>
+        </div>
+    </header>
+    
     <section class="first-point">
         <div class="first-point__container">
             <div class="intro">
@@ -35,45 +54,45 @@
             </div>
     
             <div class="info">
-                <div class="info__item info__item_accent">
-                    <h2 class="info__title">#1</h2>
-                    <img src="img/intro/cup.png" alt="Топ-1">
-                    <p class="info__description">
+                <div class="info-item info-item_accent">
+                    <h2 class="info-item__title">#1</h2>
+                    <img class="info-item__image" src="img/intro/cup.png" alt="Топ-1">
+                    <p class="info-item__description">
                         Drupal-разработчик в России по версии Рейтинга Рунета
                     </p>
                 </div>
     
-                <div class="info__item">
-                    <h2 class="info__title">3+</h2>
-                    <p class="info__description">
+                <div class="info-item">
+                    <h2 class="info-item__title">3+</h2>
+                    <p class="info-item__description">
                         средний опыт специалистов более 3 лет
                     </p>
                 </div>
     
-                <div class="info__item">
-                    <h2 class="info__title">14</h2>
-                    <p class="info__description">
+                <div class="info-item">
+                    <h2 class="info-item__title">14</h2>
+                    <p class="info-item__description">
                         лет опыта в сфере Drupal
                     </p>
                 </div>
     
-                <div class="info__item">
-                    <h2 class="info__title">50+</h2>
-                    <p class="info__description">
+                <div class="info-item">
+                    <h2 class="info-item__title">50+</h2>
+                    <p class="info-item__description">
                         модулей и тем в формате DrupalGive
                     </p>
                 </div>
     
-                <div class="info__item">
-                    <h2 class="info__title">90 000+</h2>
-                    <p class="info__description">
+                <div class="info-item">
+                    <h2 class="info-item__title">90 000+</h2>
+                    <p class="info-item__description">
                         часов поддержки сайто на Drupal
                     </p>
                 </div>
     
-                <div class="info__item">
-                    <h2 class="info__title">300+</h2>
-                    <p class="info__description">
+                <div class="info-item">
+                    <h2 class="info-item__title">300+</h2>
+                    <p class="info-item__description">
                         Проектов на поддержке
                     </p>
                 </div>
@@ -292,7 +311,7 @@
 
                     <ul class="rates__card-description">
                         <li class="rates__card-card-description-item">Предоплата от 2 часов</li>
-                        <li class="rates__card-card-description-item">Консультации и работы по SEO</li>
+                        <li class="rates__card-card-description-item">Консультации и работы <br> по SEO</li>
                         <li class="rates__card-card-description-item">Услуги дизайнера</li>
                         <li class="rates__card-card-description-item">Стандартное время реакции</li>
                         <li class="rates__card-card-description-item">Неиспользованные оплаченные часы переносятся на следующий месяц</li>
@@ -481,16 +500,6 @@
                     </div>
                 </div>
 
-                <div class="cases__card-item cases__card-item_short">
-                    <div class="cases__card-image cases__card-image-4"></div>
-
-                    <div class="cases__card-container">
-                        <h3 class="cases__card-title">Drupal 7: ускорение времени генерации страниц интернет-магазина на 32%</h3>
-
-                        <div class="cases__card-date">23.09.2019</div>
-                    </div>
-                </div>
-
                 <div class="cases__card-item cases__card-item_full">
                     <div class="cases__card-image cases__card-image-5"></div>
 
@@ -502,6 +511,16 @@
                         <p class="cases__card-description">
                             Опубликован релиз модуля...
                         </p>
+                    </div>
+                </div>
+
+                <div class="cases__card-item cases__card-item_short">
+                    <div class="cases__card-image cases__card-image-4"></div>
+
+                    <div class="cases__card-container">
+                        <h3 class="cases__card-title">Drupal 7: ускорение времени генерации страниц интернет-магазина на 32%</h3>
+
+                        <div class="cases__card-date">23.09.2019</div>
                     </div>
                 </div>
             </div>
@@ -660,22 +679,26 @@
     <section class="form">
         <div class="form__container">
             <div class="form__info">
-                <h2 class="form__title">Оставить заявку на <br> поддержку сайта</h2>
+                <div class="form__text">
+                    <h2 class="form__title">Оставить заявку на <br> поддержку сайта</h2>
 
-                <p class="form__description">
-                    Срочно нужна поддержка сайта? Ваша команда не успевает справиться самостоятельно или предыдущий подрядчик не справился с работой? Тогда вам точно к нам! Просто оставьте заявку и наш менеджер с вами свяжется!
-                </p>
-
-                <div class="form__phone">
-                    <img src="img/form/phone.svg" class="form__phone-icon" alt="">
-
-                    <span class="form__phone-text">8 800 222-26-73</span>
+                    <p class="form__description">
+                        Срочно нужна поддержка сайта? Ваша команда не успевает справиться самостоятельно или предыдущий подрядчик не справился с работой? Тогда вам точно к нам! Просто оставьте заявку и наш менеджер с вами свяжется!
+                    </p>
                 </div>
 
-                <div class="form__email">
-                    <img src="img/form/email.svg" alt="" class="form__email-icon">
-
-                    <span class="form__email-text">info@drupal-coder.ru</span>
+                <div class="form__contacts">
+                    <div class="form__phone">
+                        <img src="img/form/phone.svg" class="form__phone-icon" alt="">
+    
+                        <span class="form__phone-text">8 800 222-26-73</span>
+                    </div>
+    
+                    <div class="form__email">
+                        <img src="img/form/email.svg" alt="" class="form__email-icon">
+    
+                        <span class="form__email-text">info@drupal-coder.ru</span>
+                    </div>
                 </div>
             </div>
 

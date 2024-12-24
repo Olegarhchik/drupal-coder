@@ -54,3 +54,29 @@
 
     width: 80%;
 }
+
+@media (min-width: 1025px) {
+    .examination__container {
+        padding: 200px 200px 100px 700px;
+    }
+
+    .examination__title {
+        font-size: 42px;
+    }
+
+    .examination__background {
+        width: initial;
+        right: 0;
+        left: initial;
+    }
+
+    .examination__foreground {
+        bottom: -100px;
+        width: 50%;
+    }
+
+    .examination__cards {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+}
